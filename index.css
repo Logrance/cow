@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/abrilfatface/v23/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+* {
+  font-family: 'Abril Fatface';
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: hsla(34, 100%, 50%, 0.8);
+  background-image: url("https://images.prismic.io/barnebys/2fd07399-6e01-4d42-b8c5-463e448b6614_Untitled+design+%2848%29.jpg?w=1200&h=600&fit=crop&crop=faces&auto=format%2Ccompress&cs=tinysrgb");
+  background-size: cover;
+  margin-top: 0;
+  filter: contrast(0.5);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+.container {
+  text-align: center;
+}
+
+img, canvas {
+  border: 2px solid #000;
+  background-color: #fff;
+  max-width: 100%; /* Set max-width to allow responsive resizing */
+  max-height: 250px; /* Set max-height to limit the height */
+  margin: 10px auto;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 4px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
+}
+
+button:hover {
+  background-color: aquamarine;
+  color: blueviolet;
+}
